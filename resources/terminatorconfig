@@ -1,0 +1,35 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    split_to_group = True
+  [[Black on white]]
+    background_color = "#ffffff"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#000000"
+  [[Solarized Dark]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+  [[Solarized Light]]
+    background_color = "#fdf6e3"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#657b83"
+  [[redteam]]
+    background_color = "#ca3342"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    palette = "#000000:#fce94f:#00aa00:#aa5500:#5555ff:#aa00aa:#00aaaa:#204a87:#000000:#fce94f:#55ff55:#e8ff88:#eefac2:#ff55ff:#55ffff:#729fcf"

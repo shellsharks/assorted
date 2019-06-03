@@ -1,0 +1,5 @@
+cmoownkey,cow,monkey
+100010101,101,00
+XXZXXXY,XXY,XXZ
+aadbbcbcac,aabcc,dbbca
+aadbbbaccc,aabcc,dbbca
