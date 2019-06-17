@@ -1,5 +1,5 @@
-# create twitter developer account
-# create twitter "app"
+# create twitter developer account: https://developer.twitter.com/en/apply-for-access
+# create twitter "app": https://developer.twitter.com/en/apps
 
 import json, requests, urllib, base64, argparse, sys, configparser
 import oauth2 as oauth
