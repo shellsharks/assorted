@@ -116,7 +116,7 @@ if args.create or args.destroy:
 
     if args.destroy == "all":
         users = listUsers()
-    else if args.destroy:
+    elif args.destroy:
         api = "friendships/destroy.json"
         fileName = args.destroy
         users = [line.rstrip('\n') for line in open(fileName)]
