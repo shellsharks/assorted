@@ -97,7 +97,7 @@ def listUsers():
 
         cursor = r.json()['next_cursor']
 
-    print("\nPrinted all " + str(following_count) + " of " + twitter_user_name + " followers")
+    print("\nExported all " + str(following_count) + " of " + twitter_user_name + " followed accounts.")
     return users
 
 if args.create or args.destroy:
