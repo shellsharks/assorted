@@ -43,6 +43,8 @@ if args.create and args.destroy:
     print("Sorry you can only create or destroy by iteslf")
     sys.exit(1)
 
+#print args.user
+
 def listUsers():
     # Application-Only Authentication
 
