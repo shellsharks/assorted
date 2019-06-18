@@ -32,6 +32,7 @@ parser.add_argument("-u", "--user", help="Use your Twitter username")
 parser.add_argument("-l", "--list", nargs='?', const=1, default='none', help="No argument will display followed users on the command line, an argument will save list to the provided file name")
 parser.add_argument("-c", "--create", help="Follow users from a provided file")
 parser.add_argument("-d", "--destroy", help="Unfollow users from a provided file")
+parser.add_argument("-z", "--zero", nargs='?', const=1, default='none', help="Zero out followers")
 args = parser.parse_args()
 
 #screen name
@@ -83,7 +84,7 @@ def listUsers():
     ver = '1.1/'
     count = 200
     cursor = -1
-    following_count = 1
+    following_count = 0
     users = []
 
     while cursor != 0:
@@ -91,7 +92,6 @@ def listUsers():
         r = requests.get(url+ver+api, headers=request_headers, params=params)
 
         for user in r.json()['users']:
-            #print(user['screen_name'])
             users.append(user['screen_name'])
             following_count = following_count + 1
 
@@ -115,22 +115,21 @@ if args.create or args.destroy:
         users = [line.rstrip('\n') for line in open(fileName)]
 
     if args.destroy == "all":
-        api = "friendships/destroy.json"
         print("...deleting all")
         users = listUsers()
+        api = "friendships/destroy.json"
     elif args.destroy:
         api = "friendships/destroy.json"
         print("...deleting")
         fileName = args.destroy
         users = [line.rstrip('\n') for line in open(fileName)]
 
-    print(users)
-
     for user in users:
         params = "screen_name="+user
         response, data = client.request(url+ver+api, method="POST", body=params)
 
 if args.list!='none' and args.user:
+    print("listing followed accounts...")
     userlist = listUsers()
 
     if args.list == 1:
