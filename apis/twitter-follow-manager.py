@@ -4,7 +4,7 @@
 import json, requests, urllib, base64, argparse, sys, configparser
 import oauth2 as oauth
 
-''' Config Needed: save as 'twitter-config.json'
+''' Config file needed, use the format below and save as 'secret_twitter-config.json'
 {
   "api_key":"[api key]",
   "api_secret_key":"[api secret key]",
