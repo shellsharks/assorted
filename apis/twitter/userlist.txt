@@ -39,9 +39,7 @@ XipiterSec
 orange_8361
 int0x33
 thotcon
-Alra3ees
 zseano
-Dinosn
 soaj1664ashar
 logicbomb_1
 intigriti
@@ -111,7 +109,6 @@ TheHackersNews
 metasploit
 nmap
 gcluley
-briankrebs
 rapid7
 IANS_Security
 ubersec

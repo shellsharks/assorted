@@ -179,5 +179,6 @@ if args.list!='None' and args.user:
         for user in userlist:
             print(user),
     else:
+
         with open(args.list, 'w') as filehandle:
             filehandle.writelines("%s\n" % user for user in userlist)
