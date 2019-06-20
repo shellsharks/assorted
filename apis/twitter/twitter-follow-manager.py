@@ -29,10 +29,10 @@ with open('secret_twitter-config.json') as json_data_file:
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", "--user", help="Use your Twitter username")
-parser.add_argument("-l", "--list", nargs='?', const=1, default='none', help="No argument will display followed users on the command line, an argument will save list to the provided file name")
+parser.add_argument("-l", "--list", nargs='?', const=1, default='None', help="No argument will display followed users on the command line, an argument will save list to the provided file name")
 parser.add_argument("-c", "--create", help="Follow users from a provided file")
 parser.add_argument("-d", "--destroy", help="Unfollow users from a provided file")
-parser.add_argument("-z", "--zero", nargs='?', const=1, default='none', help="Zero out followers")
+parser.add_argument("-z", "--zero", nargs='?', const=1, default='None', help="Zero out followers")
 args = parser.parse_args()
 
 #screen name
@@ -43,7 +43,48 @@ if args.create and args.destroy:
     print("Sorry you can only create or destroy by iteslf")
     sys.exit(1)
 
-#print args.user
+def listUserInfo():
+    api = 'oauth2/token'
+    consumer_key = urllib.quote(api_key)
+    consumer_secret_key = urllib.quote(api_secret_key)
+    bearer_token_creds = consumer_key + ":" + consumer_secret_key
+    encoded_token = base64.b64encode(bearer_token_creds)
+
+    request_headers = {'Authorization':"Basic "+encoded_token, 'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'}
+
+    body = {'grant_type':'client_credentials'}
+
+    r = requests.post(url+api, headers=request_headers, data=body)
+
+    bearer_token = r.json()['access_token']
+    request_headers = {'Authorization':'Bearer '+bearer_token}
+
+    api = 'users/show.json'
+    ver = '1.1/'
+
+    params = {'screen_name':twitter_user_name}
+    r = requests.get(url+ver+api, headers=request_headers, params=params)
+
+    u = r.json()
+
+    user_info = {'screen_name':u['screen_name'],'id':u['id'],'verified':u['verified'],'follow_request_sent':u['follow_request_sent'],'created_date':u['created_at'],'followers_count':u['followers_count'],'friends_count':u['friends_count'],'location':u['location'],'description':u['description']}
+
+    return user_info
+
+if args.user:
+    user = listUserInfo()
+    vrfd = ""
+    if not user['verified']:
+        vrfd = "not"
+    print('\nScreen Name: ' + user['screen_name'] + ' (' + vrfd + ' verified)' + '\n'
+        'ID: ' + str(user['id']) + '\n'
+        'Account Creation Date: ' + user['created_date'] + '\n'
+        'Follow Requested: ' + str(user['follow_request_sent']) + '\n'
+        'Follower Count: ' + str(user['followers_count']) + " | Following Count: " + str(user['friends_count']) + '\n'
+        'Location: ' + user['location'] + '\n'
+        'Description: ' + user['description'] + '\n'
+    )
+
 
 def listUsers():
     # Application-Only Authentication
@@ -130,7 +171,7 @@ if args.create or args.destroy:
         params = "screen_name="+user
         response, data = client.request(url+ver+api, method="POST", body=params)
 
-if args.list!='none' and args.user:
+if args.list!='None' and args.user:
     print("listing followed accounts...")
     userlist = listUsers()
 
