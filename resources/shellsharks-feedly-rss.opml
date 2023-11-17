@@ -1945,7 +1945,7 @@
             <outline type="rss" text="Jeffrey Paul" title="Jeffrey Paul" xmlUrl="https://sneak.berlin/feed.xml" htmlUrl="https://sneak.berlin/"/>
             <outline type="rss" text="Intel Cocktail" title="Intel Cocktail" xmlUrl="https://intelcocktail.com/feed/" htmlUrl="https://intelcocktail.com"/>
             <outline type="rss" text="Home on Romain Thomas" title="Home on Romain Thomas" xmlUrl="https://www.romainthomas.fr/index.xml" htmlUrl="https://www.romainthomas.fr/"/>
-            <outline type="rss" text="Stories by Vitor "r0t" Oliveira on Medium" title="Stories by Vitor "r0t" Oliveira on Medium" xmlUrl="https://medium.com/feed/@r0t1v" htmlUrl="https://medium.com/@r0t1v?source=rss-8fc9dccdde0c------2"/>
+            <outline type="rss" text='Stories by Vitor "r0t" Oliveira on Medium' title='Stories by Vitor "r0t" Oliveira on Medium' xmlUrl="https://medium.com/feed/@r0t1v" htmlUrl="https://medium.com/@r0t1v?source=rss-8fc9dccdde0c------2"/>
             <outline type="rss" text="RSS" title="RSS" xmlUrl="https://medium.com/feed/@prajwoldhungana487" htmlUrl="https://medium.com/@prajwoldhungana487?source=rss-8390e59a20b2------2"/>
             <outline type="rss" text="Stories by Raghavendra on Medium" title="Stories by Raghavendra on Medium" xmlUrl="https://medium.com/feed/@raghav2039" htmlUrl="https://medium.com/@raghav2039?source=rss-fbf10aea9cf8------2"/>
             <outline type="rss" text="Stories by Johns Simon on Medium" title="Stories by Johns Simon on Medium" xmlUrl="https://medium.com/feed/@johnssimon_6607" htmlUrl="https://medium.com/@johnssimon_6607?source=rss-ce5731b67682------2"/>
@@ -2326,7 +2326,7 @@
             <outline type="rss" text="@Wietze - Blog" title="@Wietze - Blog" xmlUrl="https://www.wietzebeukema.nl/blog/feed.xml" htmlUrl="https://www.wietzebeukema.nl/blog/"/>
             <outline type="rss" text="" title="" xmlUrl="https://blog.paavo.me/atom.xml" htmlUrl="https://blog.paavo.me"/>
             <outline type="rss" text="RSS" title="RSS" xmlUrl="https://medium.com/feed/@aob-89072" htmlUrl="https://medium.com/@aob-89072?source=rss-c0a100c71058------2"/>
-            <outline type="rss" text="Micah's 0-Day - Child of God, Security Analyst, wannabe content creator. Get at me ✌🏽 "The ability to create is a blessing!" title="Micah's 0-Day - Child of God, Security Analyst, wannabe content creator. Get at me ✌🏽 "The ability to create is a blessing!" xmlUrl="https://micahs0day.github.io/feed.xml" htmlUrl="https://micahs0day.github.io/"/>
+            <outline type="rss" text="Micah's 0-Day" title="Micah's 0-Day" xmlUrl="https://micahs0day.github.io/feed.xml" htmlUrl="https://micahs0day.github.io/"/>
             <outline type="rss" text="kiwidog's blog" title="kiwidog's blog" xmlUrl="https://kiwidog.me/feed/" htmlUrl="https://kiwidog.me"/>
             <outline type="rss" text="jamchamb’s blog" title="jamchamb’s blog" xmlUrl="https://jamchamb.github.io///feed.xml" htmlUrl="https://jamchamb.net/"/>
             <outline type="rss" text="The Hacker's Choice" title="The Hacker's Choice" xmlUrl="https://blog.thc.org/rss.xml" htmlUrl="https://blog.thc.org"/>
