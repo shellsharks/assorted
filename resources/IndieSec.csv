@@ -14,7 +14,6 @@ IndieSec,securestep9@infosec.exchange
 IndieSec,faker@infosec.exchange
 IndieSec,JohnsNotHere@infosec.exchange
 IndieSec,megan@infosec.exchange
-IndieSec,campuscodi@mastodon.social
 IndieSec,cirku17@infosec.exchange
 IndieSec,shellcromancer@infosec.exchange
 IndieSec,rami@infosec.exchange
@@ -33,6 +32,7 @@ IndieSec,matthew_d_green@ioc.exchange
 IndieSec,dragosr@chaos.social
 IndieSec,CarpeDiemT3ch@ioc.exchange
 IndieSec,FirehaK@infosec.exchange
+IndieSec,wdormann@infosec.exchange
 IndieSec,Myrtus@infosec.exchange
 IndieSec,maldr0id@infosec.exchange
 IndieSec,ChocolateCoat@infosec.exchange
@@ -53,6 +53,7 @@ IndieSec,thypon@mastodon.social
 IndieSec,cryptax@mastodon.social
 IndieSec,christophetd@infosec.exchange
 IndieSec,HackingDave@infosec.exchange
+IndieSec,hrbrmstr@mastodon.social
 IndieSec,catc0n@infosec.exchange
 IndieSec,jfslowik@infosec.exchange
 IndieSec,geffner@infosec.exchange
@@ -66,7 +67,6 @@ IndieSec,cxiao@infosec.exchange
 IndieSec,williballenthin@mastodon.social
 IndieSec,vict0ni@infosec.exchange
 IndieSec,ajxchapman@infosec.exchange
-IndieSec,zackwhittaker@mastodon.social
 IndieSec,psiinon@infosec.exchange
 IndieSec,jcfarris@infosec.exchange
 IndieSec,valorin@phpc.social
@@ -123,7 +123,6 @@ IndieSec,scottpiper@infosec.exchange
 IndieSec,mumblegrepper@flokinet.social
 IndieSec,insiderphd@infosec.exchange
 IndieSec,DavidJBianco@infosec.exchange
-IndieSec,netalexx@infosec.exchange
 IndieSec,albinolobster@infosec.exchange
 IndieSec,Raj_Samani@ioc.exchange
 IndieSec,jkamdjou@infosec.exchange
@@ -220,6 +219,7 @@ IndieSec,blackmond@infosec.exchange
 IndieSec,larsborn@infosec.exchange
 IndieSec,MaxMnMl@infosec.exchange
 IndieSec,joev@infosec.exchange
+IndieSec,alberg@infosec.exchange
 IndieSec,dox@infosec.exchange
 IndieSec,strandjs@infosec.exchange
 IndieSec,emanuelduss@infosec.exchange
@@ -249,7 +249,6 @@ IndieSec,matthewdfuller@infosec.exchange
 IndieSec,jeromesegura@infosec.exchange
 IndieSec,stonerpsu@infosec.exchange
 IndieSec,epixoip@infosec.exchange
-IndieSec,agreenberg@infosec.exchange
 IndieSec,sickness@infosec.exchange
 IndieSec,hetmehtaa@infosec.exchange
 IndieSec,davek@infosec.exchange
@@ -354,6 +353,7 @@ IndieSec,summerz@infosec.exchange
 IndieSec,jackrhysider@infosec.exchange
 IndieSec,hacksilon@infosec.exchange
 IndieSec,cyber@brands.town
+IndieSec,teriradichel@infosec.exchange
 IndieSec,meansec@infosec.exchange
 IndieSec,shortridge@hachyderm.io
 IndieSec,vanhoefm@infosec.exchange
@@ -406,6 +406,7 @@ IndieSec,bouncyhat@infosec.exchange
 IndieSec,nohackme@defcon.social
 IndieSec,gergelykalman@infosec.exchange
 IndieSec,G66@defcon.social
+IndieSec,skyeyes@infosec.exchange
 IndieSec,alevsk@infosec.exchange
 IndieSec,glesnewich@infosec.exchange
 IndieSec,LeeArchinal@ioc.exchange
@@ -415,7 +416,9 @@ IndieSec,hash_miser@infosec.exchange
 IndieSec,harrysintonen@infosec.exchange
 IndieSec,greplogic@infosec.exchange
 IndieSec,x0rz@infosec.exchange
+IndieSec,rsalz@ioc.exchange
 IndieSec,wade@infosec.exchange
+IndieSec,ifsecure@infosec.exchange
 IndieSec,talsk@infosec.exchange
 IndieSec,nullptrexcept@infosec.exchange
 IndieSec,0xor0ne@infosec.exchange
@@ -425,17 +428,21 @@ IndieSec,chompie1337@haunted.computer
 IndieSec,goldbe@infosec.exchange
 IndieSec,r1cksec@infosec.exchange
 IndieSec,trojanfoxtrot@infosec.exchange
+IndieSec,holisticinfosec@infosec.exchange
 IndieSec,david_obrien@mastodon.argos-security.io
 IndieSec,nostarch@infosec.exchange
 IndieSec,JasonFossen@infosec.exchange
 IndieSec,iiamit@infosec.exchange
 IndieSec,cyb_detective@infosec.exchange
+IndieSec,GossiTheDog@cyberplace.social
 IndieSec,apps3c@infosec.exchange
 IndieSec,gnugro@infosec.exchange
 IndieSec,scottbrady@hachyderm.io
 IndieSec,tvcutsem@techhub.social
+IndieSec,fellows@cyberplace.social
 IndieSec,CyberLeech@cyberplace.social
 IndieSec,jmamblat@infosec.exchange
+IndieSec,DevaOnBreaches@infosec.exchange
 IndieSec,clearbluejar@infosec.exchange
 IndieSec,ic3qu33n@infosec.exchange
 IndieSec,lintile@hackers.town
@@ -443,6 +450,7 @@ IndieSec,abrignoni@infosec.exchange
 IndieSec,richi@vmst.io
 IndieSec,knitcode@infosec.exchange
 IndieSec,filippo@abyssdomain.expert
+IndieSec,cryptrz@infosec.exchange
 IndieSec,thebardssong@infosec.exchange
 IndieSec,dhk@infosec.exchange
 IndieSec,algorythm@infosec.exchange
@@ -484,6 +492,7 @@ IndieSec,squiblydoo@infosec.exchange
 IndieSec,const@infosec.exchange
 IndieSec,grimmware@infosec.exchange
 IndieSec,ahoog42@infosec.exchange
+IndieSec,xairy@infosec.exchange
 IndieSec,rogeragrimes@infosec.exchange
 IndieSec,S1m@infosec.exchange
 IndieSec,Bing_Chris@mastodon.social
@@ -494,3 +503,4 @@ IndieSec,PagedOut@infosec.exchange
 IndieSec,curtis@infosec.exchange
 IndieSec,josephzeng@infosec.exchange
 IndieSec,downeg@infosec.exchange
+IndieSec,shellsharks@infosec.exchange
