@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Shellsharks Blogroll OPML</title>
+    </head>
+    <body>
+        <outline text="Blogroll" title="Blogroll">
+            <outline type="rss" text="Kev Quirk" title="Kev Quirk" xmlUrl="https://kevq.uk/feed/" htmlUrl="https://kevquirk.com"/>
+            <outline type="rss" text="Hey, it's Jason!" title="Hey, it's Jason!" xmlUrl="https://grepjason.sh/rss.xml" htmlUrl="https://grepjason.sh"/>
+            <outline type="rss" text="The Hive" title="The Hive" xmlUrl="https://www.vzqk50.com/index.xml" htmlUrl="https://www.vzqk50.com/"/>
+            <outline type="rss" text="gynvael.coldwind//vx.log (en)" title="gynvael.coldwind//vx.log (en)" xmlUrl="http://feeds.feedburner.com/GynvaelColdwindEN" htmlUrl="https://gynvael.coldwind.pl/"/>
+            <outline type="rss" text="localghost" title="localghost" xmlUrl="https://localghost.dev/feed.xml" htmlUrl="https://localghost.dev/"/>
+            <outline type="rss" text="Tantek Çelik" title="Tantek Çelik" xmlUrl="http://tantek.com/updates.atom" htmlUrl="https://tantek.com/"/>
+            <outline type="rss" text="Cool As Heck" title="Cool As Heck" xmlUrl="https://cool-as-heck.blog/feed.atom" htmlUrl="https://cool-as-heck.blog"/>
+            <outline type="rss" text="James' Coffee Blog" title="James' Coffee Blog" xmlUrl="https://jamesg.blog/feeds/posts.xml" htmlUrl="https://jamesg.blog/longform-feed/"/>
+            <outline type="rss" text="The Weblog of fLaMEd" title="The Weblog of fLaMEd" xmlUrl="https://flamedfury.com/feed.xml/" htmlUrl="https://flamedfury.com/"/>
+            <outline type="rss" text="We Distribute" title="We Distribute" xmlUrl="https://wedistribute.org/feed/" htmlUrl="https://wedistribute.org"/>
+            <outline type="rss" text="Cory Dransfeldt" title="Cory Dransfeldt" xmlUrl="https://feedpress.me/coryd" htmlUrl="https://coryd.dev/feeds"/>
+            <outline type="rss" text="Trail of Bits Blog" title="Trail of Bits Blog" xmlUrl="https://blog.trailofbits.com/feed/" htmlUrl="https://blog.trailofbits.com"/>
+            <outline type="rss" text="Terence Eden’s Blog" title="Terence Eden’s Blog" xmlUrl="http://shkspr.mobi/blog/feed/" htmlUrl="https://shkspr.mobi/blog"/>
+            <outline type="rss" text="Werd I/O" title="Werd I/O" xmlUrl="https://werd.io/content/all?_t=rss" htmlUrl="https://werd.io/content/all"/>
+            <outline type="rss" text="Robb Knight • Posts • Atom Feed" title="Robb Knight • Posts • Atom Feed" xmlUrl="https://rknight.me/feed.xml" htmlUrl="https://rknight.me"/>
+            <outline type="rss" text="User feed for Aaron Parecki" title="User feed for Aaron Parecki" xmlUrl="http://aaronparecki.com/articles.atom" htmlUrl="https://aaronparecki.com/articles"/>
+            <outline type="rss" text="@Westenberg Feed - Joan Westenberg" title="@Westenberg Feed - Joan Westenberg" xmlUrl="https://joanwestenberg.com/blog?format=rss" htmlUrl="https://joanwestenberg.com/blog/"/>
+            <outline type="rss" text="Songs on the Security of Networks" title="Songs on the Security of Networks" xmlUrl="https://rys.io/en/feed.rss" htmlUrl="https://rys.io/"/>
+            <outline type="rss" text="destructured" title="destructured" xmlUrl="https://destructured.net/feed.xml" htmlUrl="https://destructured.net/"/>
+            <outline type="rss" text="MacStories" title="MacStories" xmlUrl="https://www.macstories.net/feed/" htmlUrl="https://www.macstories.net"/>
+            <outline type="rss" text="Adepts of 0xCC" title="Adepts of 0xCC" xmlUrl="https://adepts.of0x.cc/feed.xml" htmlUrl="https://adepts.of0x.cc/"/>
+            <outline type="rss" text="Joel's Log Files" title="Joel's Log Files" xmlUrl="https://joelchrono.xyz/feed.xml" htmlUrl="https://joelchrono.xyz/"/>
+        </outline>
+    </body>
+</opml>
