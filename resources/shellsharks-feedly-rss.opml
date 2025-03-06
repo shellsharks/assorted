@@ -25,7 +25,6 @@
             <outline type="rss" text="Mozilla Security Blog" title="Mozilla Security Blog" xmlUrl="http://blog.mozilla.com/security/feed/" htmlUrl="https://blog.mozilla.org/security/"/>
             <outline type="rss" text="Project Zero" title="Project Zero" xmlUrl="http://googleprojectzero.blogspot.com/feeds/posts/default" htmlUrl="https://googleprojectzero.blogspot.com/"/>
             <outline type="rss" text="PortSwigger Research" title="PortSwigger Research" xmlUrl="https://portswigger.net/research/rss" htmlUrl="https://portswigger.net/research"/>
-            <outline type="rss" text="404 Media" title="404 Media" xmlUrl="https://404.feed.press/private?key=0e5650020eab91983b0e2e7130e71c7f" htmlUrl="https://www.404media.co/"/>
             <outline type="rss" text="NVISO Labs" title="NVISO Labs" xmlUrl="http://blog.nviso.be/feeds/posts/default" htmlUrl="https://blog.nviso.eu"/>
         </outline>
         <outline text="Infosec" title="Infosec">
